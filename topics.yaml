@@ -1,0 +1,363 @@
+# UFO/UAP 內容創作選題庫
+# 生成日期: 2026-02-20
+
+metadata:
+  project: "UFO/UAP 社群內容創作計畫"
+  version: "1.0"
+  last_updated: "2026-02-20"
+
+# 選題總表
+topics:
+  # ==================== T000: 原始研究檔案 ====================
+  - id: t000
+    title: "UFO/UAP 社群趨勢與需求分析 (基礎研究)"
+    research_questions:
+      - "分析 Reddit r/UFOs、Twitter/X 等平台 2023-2025 年的高互動討論主題，識別社群最常提出的問題類型與求知需求"
+      - "調查 YouTube、Podcast 平台高流量的 UFO/UAP 內容主題與標題元素，分析其受眾反應"
+      - "整理 Contact in the Desert、AlienCon、SCU 會議等國際研討會的議程規劃，識別重複出現的經典主題與新興主題"
+      - "交叉比對社群需求與現有內容供給，識別內容缺口與潛在選題機會"
+    status: completed
+    priority: p0
+    type: foundational
+    platforms: []
+    research_completed: true
+    draft_completed: true
+    published_date: "2026-02-20"
+    tags: [foundational, research, community-analysis]
+    notes: "原始 Deep Research 指令與調查報告，作為所有後續選題的基礎"
+    # 檔案關聯（metadata 與內容分離）
+    files:
+      prompt: "00-archive/t000-prompt.md"
+      report: "00-archive/t000-report.md"
+
+  # ==================== P0 優先級選題 ====================
+  - id: t001
+    # 內容標題：給觀眾看的敘事性標題
+    title: "五角大廈的無瑕星座計畫：他們早就拍到最清晰的 UFO 影像，卻藏了起來"
+    # 研究問題：給 AI 的中性調查問題（3-5 個，具體可驗證）
+    research_questions:
+      - "調查 'Immaculate Constellation' 計畫名稱的首次出處與相關洩露文件內容"
+      - "分析 USAP（Unacknowledged Special Access Programs）的法律定義、監督機制與資訊豁免條款"
+      - "整理 2024 年底與該計畫相關的吹哨者聲稱（消息來源、具體內容、可佐證性評估）"
+      - "調查 DoD 與情報機構對該計畫的公開回應或否認聲明"
+      - "分析懷疑論者（如 Mick West）對該洩密文件的技術性質疑觀點與反駁論據"
+    status: todo
+    priority: p0
+    type: investigative
+    platforms: [youtube, substack, threads]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [immaculate-constellation, pentagon, cover-up, whistleblower]
+    notes: "2024年底洩密事件，社群熱度極高，優先做。需調查 USAP 運作機制與法律漏洞"
+    # 檔案關聯（預留結構，檔案建立後填入）
+    files:
+      prompt: null      # 01-research/t001-prompt.md
+      report: null      # 01-research/t001-report.md
+      drafts: []        # 02-drafts/t001-youtube.md, 02-drafts/t001-substack.md
+      assets: []        # 03-assets/t001-thumb-01.png
+
+  - id: t002
+    title: "UAP 揭露法案為什麼一直過不了？追蹤國防承包商的遊說黑手"
+    research_questions:
+      - "追蹤 UAP Disclosure Act (UAPDA) 在 2023-2024 國會週期的立法進度與修正案變化"
+      - "分析主要國防承包商（Lockheed Martin、Northrop Grumman 等）的遊說支出與政治獻金流向"
+      - "調查反對 UAPDA 的議員名單與其選區軍工產業關聯性"
+      - "比較 Schumer 修正案條文與 JFK Records Collection Act 的異同"
+      - "收集航太企業協會（如 AIA）對 UAP 透明化法案的公開立場聲明"
+    status: todo
+    priority: p0
+    type: political-analysis
+    platforms: [youtube, twitter, substack]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [UAPDA, legislation, lobbying, NDAA, schumer]
+    notes: "每月追蹤立法進度，舒默修正案條文比較，議員收受航太企業政治獻金分析"
+
+  - id: t003
+    title: "AARO 報告為什麼沒人信？解密現代版的藍皮書計畫公關操作"
+    research_questions:
+      - "分析 AARO 2024 歷史報告的調查方法論與證據選擇標準"
+      - "整理該報告發布後，來自前情報官員、科學家與吹哨者的公開批評"
+      - "比較 Project Blue Book (1952-1969) 與 AARO 的組織架構、調查權限與結論模式"
+      - "調查 Dr. Kirkpatrick 的背景、任命過程與離職後的公開發言"
+      - "分析 Robertson Panel (1953) 對現代 UAP 敘事的影響與延續性"
+    status: todo
+    priority: p0
+    type: investigative
+    platforms: [youtube, substack]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [AARO, blue-book, cover-up, kirkpatrick, trust-crisis]
+    notes: "逐條反駁 AARO 2024 歷史報告，與 Project Blue Book/Robertson Panel 歷史對比"
+
+  - id: t004
+    title: "如果政府不說，洩密者會說：災難性揭露倒數計時？"
+    research_questions:
+      - "定義並比較 'Controlled Disclosure' 與 'Catastrophic Disclosure' 的概念來源與差異"
+      - "收集主要 UAP 研究者與內部人士對『即將發生重大揭露』的預測時間線與依據"
+      - "調查歷史上類似『重大真相揭露』（如 NSA 監控、CIA 酷刑）對社會信任的短期與長期影響"
+      - "分析 NHI 存在確認對金融市場、宗教機構與國際關係的潛在衝擊模型"
+    status: todo
+    priority: p0
+    type: analysis
+    platforms: [youtube, substack, podcast]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [catastrophic-disclosure, controlled-disclosure, leak, prediction]
+    notes: "受控揭露 vs 災難性揭露的社會學影響模型，全球金融/宗教/社會框架衝擊分析"
+
+  - id: t005
+    title: "核彈基地上方的幽靈：為什麼 UFO 總是出現在核設施附近？"
+    research_questions:
+      - "調查 Langley AFB 2023-2025 年 UAP 入侵事件的官方報告與目擊者證詞"
+      - "整理 Malmstrom AFB、Minot AFB 等核基地歷史 UAP 遭遇案例（1960s-至今）"
+      - "分析 UAP 出現在核設施附近的可能動機假說（監控、警告、技術興趣等）"
+      - "調查軍方反制系統（雷達、攔截機）在這些事件中回應失效的記錄與原因分析"
+      - "收集 Robert Salas、Bob Jacobs 等退役軍官關於核基地 UAP 的證詞內容"
+    status: todo
+    priority: p0
+    type: investigative
+    platforms: [youtube, threads]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [nuclear-facilities, langley-afb, malmstrom, national-security]
+    notes: "Langley AFB 2023-2025 入侵事件，歷史核基地遭遇案例，軍方反制系統失效原因"
+
+  # ==================== P1 優先級選題 ====================
+  - id: t006
+    title: "他們回收的不只是飛碟：非人類生物遺骸的證據鏈調查"
+    research_questions:
+      - "整理 David Grusch 2023 國會聽證中關於『非人類生物製劑』的具體聲稱"
+      - "調查納斯卡木乃伊（Nazca Mummies）的科學檢測結果與學術界爭議"
+      - "分析『第六個可觀測特徵』（生物效應，如輻射傷害、腦部變化、意識影響）的證據記錄與案例"
+      - "收集其他吹哨者（如 Emery Smith）關於回收生物材料的歷史證詞"
+      - "評估現有『非人類遺骸』聲稱的物證品質與可佐證性"
+    status: todo
+    priority: p1
+    type: investigative
+    platforms: [youtube, substack]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [biologics, NHI, grusch, recovered-materials, peru-mummies]
+    notes: "David Grusch 生物製劑證詞，納斯卡木乃伊爭議，第六個可觀測特徵"
+
+  - id: t007
+    title: "海底有 UFO 基地？退役海軍少將爆料的 USO 真相"
+    research_questions:
+      - "調查 Rear Adm. Tim Gallaudet 關於 USO（Unidentified Submerged Objects）的證詞與倡議內容"
+      - "收集海軍聲納異常數據的解密或洩露記錄（如 2004 聖地牙哥海岸事件）"
+      - "整理歷史上軍方與民間的『水下基地』聲稱（如 Puerto Rico、加州外海）"
+      - "分析海洋 UAP 與空中 UAP 的行為模式差異與相似處"
+    status: todo
+    priority: p1
+    type: investigative
+    platforms: [youtube, threads]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [USO, underwater, gallaudet, ocean-anomalies, sonar]
+    notes: "Tim Gallaudet 海洋倡議，聲納異常數據，跨域防報復機制缺口"
+
+  - id: t008
+    title: "用 AI 抓出假 UFO：教你如何分辨 CGI、無人機和真正的異常現象"
+    research_questions:
+      - "調查開源 AI 工具與方法論，用於檢測 CGI 合成影片與深偽技術（Deepfake）"
+      - "整理常見光學偽影類型（鏡頭光暈、壓縮失真、幀率異常）及其辨識技巧"
+      - "分析 Starlink 衛星、無人機與 UAP 在視覺特徵上的區分方法"
+      - "調查 Enigma Labs 的公民科學數據驗證流程與品質控制機制"
+    status: todo
+    priority: p1
+    type: educational
+    platforms: [youtube, tiktok, threads]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [AI-detection, CGI, drone-identification, citizen-science, tutorial]
+    notes: "開源 AI 工具教學，光學偽影辨識，星鏈/無人機 vs UAP 區分方法"
+
+  - id: t009
+    title: "當 UFO 碰上你的大腦：輻射傷害、時間消失與心電感應紀錄"
+    research_questions:
+      - "收集 UAP 目擊者報告的身體影響案例（輻射灼傷、電磁敏感、神經症狀）"
+      - "調查『Missing Time』現象的目擊者證詞與可能的科學解釋"
+      - "分析 Havana Syndrome 與 UAP 暴露案例的症狀相似性研究"
+      - "整理 CE-5（第五類接觸）協議的歷史、方法與爭議"
+      - "調查意識與 UAP 互動現象的學術研究（如 Dr. Garry Nolan 的工作）"
+    status: todo
+    priority: p1
+    type: phenomenon-analysis
+    platforms: [youtube, substack]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [biological-effects, missing-time, telepathy, CE5, consciousness]
+    notes: "目擊者身體影響紀錄，Havana Syndrome 關聯，第五類接觸協議"
+
+  - id: t010
+    title: "黑預算從哪來？追蹤每年數十億美元的幽靈資金"
+    research_questions:
+      - "調查美國國防預算中『黑預算』（Black Budget）的規模、歷史變化與隱藏方式"
+      - "分析 USAP（Unacknowledged SAP）的資金流動機制與會計規避手段"
+      - "調查主要國防承包商（Lockheed Skunk Works、Northrop ATB）的黑預算項目歷史"
+      - "收集國會監督機制（GAO、IG）對黑預算項目的審計權限與限制"
+      - "分析國防授權法案（NDAA）中與 UAP/SAP 相關的資金條款"
+    status: todo
+    priority: p1
+    type: investigative
+    platforms: [youtube, substack]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [black-budget, USAP, funding, lockheed-martin, skunk-works]
+    notes: "未經授權特別訪問項目資金來源，軍工複合體與國會監督漏洞"
+
+  # ==================== P2 優先級選題 ====================
+  - id: t011
+    title: "吹哨者說了什麼？David Grusch 證詞的 5 個關鍵點與矛盾之處"
+    research_questions: []
+    status: todo
+    priority: p2
+    type: analysis
+    platforms: [youtube, twitter]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [grusch, whistleblower, testimony, cross-verification]
+    notes: "2023國會聽證證詞摘要，與其他吹哨者（Lue Elizondo, Karl Nell）交叉比對"
+
+  - id: t012
+    title: "各國政府誰最敢說？比較美、英、法、日的 UFO 解密進度"
+    research_questions: []
+    status: todo
+    priority: p2
+    type: comparative-analysis
+    platforms: [youtube, substack]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [international, disclosure, UK, France, Japan, Brazil]
+    notes: "全球披露政策比較，法國 COMETA 報告，英國 MOD 解密檔案"
+
+  - id: t013
+    title: "你的手機也能追蹤 UFO：Enigma Labs 和公民科學的崛起"
+    research_questions: []
+    status: todo
+    priority: p2
+    type: educational
+    platforms: [youtube, tiktok, threads]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [enigma-labs, citizen-science, OSINT, app, tracking]
+    notes: "Enigma Labs 使用方法，去中心化資料收集，與官方數據對比"
+
+  - id: t014
+    title: "物理學解釋不了的飛行：Nimitz 事件 Tic-Tac 的運動學分析"
+    research_questions: []
+    status: todo
+    priority: p2
+    type: scientific-analysis
+    platforms: [youtube, substack]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [nimitz, tic-tac, kinematics, physics, fravor]
+    notes: "2004 Nimitz 遭遇事件，瞬間加速無音爆/無熱特徵的物理學挑戰"
+
+  - id: t015
+    title: "商業航班機師看到的東西：航空安全的隱藏威脅"
+    research_questions: []
+    status: todo
+    priority: p2
+    type: investigative
+    platforms: [youtube, threads]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [commercial-aviation, pilot-sightings, aviation-safety, near-miss]
+    notes: "商業飛行員目擊報告，航空交通管制數據，FAA 處理程序"
+
+  # ==================== P2 延伸選題 ====================
+  - id: t016
+    title: "好萊塢正在搶回敘事權：從《遠古外星人》到《揭露時代》的轉變"
+    research_questions: []
+    status: todo
+    priority: p2
+    type: media-analysis
+    platforms: [youtube, substack]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [hollywood, HDA, age-of-disclosure, media-narrative, ancient-aliens]
+    notes: "Hollywood Disclosure Alliance，影視敘事如何塑造公共認知"
+
+  - id: t017
+    title: "金字塔是外星人造的？考古學家不敢說的古代技術之謎"
+    research_questions: []
+    status: todo
+    priority: p2
+    type: historical-investigation
+    platforms: [youtube, tiktok]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [ancient-astronaut, pyramid, archaeology, ancient-technology]
+    notes: "古代遺跡工程學爭議，Puma Punku，埃及精確切割技術"
+
+  - id: t018
+    title: "如何用 FOIA 挖出政府秘密：資訊自由法實戰教學"
+    research_questions: []
+    status: todo
+    priority: p2
+    type: educational
+    platforms: [youtube, substack]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [FOIA, transparency, how-to, government-documents, tutorial]
+    notes: "FOIA 請求步驟教學，UAP 相關請求成功案例，被拒絕後的申訴流程"
+
+  - id: t019
+    title: "如果外星人不在天上，而是在我們之中？密匿地球假說深度解析"
+    research_questions: []
+    status: todo
+    priority: p2
+    type: phenomenon-analysis
+    platforms: [youtube, substack]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [cryptoterrestrial, interdimensional, ultraterrestrial, vallee]
+    notes: "Jacques Vallée 理論，跨維度假設，Trickster 現象，隱秘地球文明"
+
+  - id: t020
+    title: "2025 是關鍵年：國會聽證、解密文件與下一波大爆料預測"
+    research_questions: []
+    status: todo
+    priority: p2
+    type: prediction-analysis
+    platforms: [youtube, substack]
+    research_completed: false
+    draft_completed: false
+    published_date: null
+    tags: [2025-predictions, congressional-hearing, upcoming-events, forecast]
+    notes: "2025-2026 立法週期展望，預期中的解密文件，潛在吹哨者動向"
+
+# 欄位說明
+# - status: todo / researching / drafted / published / archived
+# - priority: p0 (立即執行) / p1 (高優先) / p2 (待規劃)
+# - type: 內容類型分類
+# - research_questions: 給 AI 的調查問題清單（3-5 個，中性、具體、可驗證）
+#   注意：這是研究用的問題，不是觀眾看到的標題，應避免預設立場
+#
+# research_questions 設計原則：
+# 1. 每個問題應可獨立調查，避免過度發散
+# 2. 使用中性語言，不預設結論（例如用「調查聲稱」而非「證明掩蓋」）
+# 3. 明確指定資料來源類型（文件、證詞、數據等）
+# 4. 問題間應有邏輯關聯，共同支撐內容標題的敘事
