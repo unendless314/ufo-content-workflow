@@ -41,19 +41,19 @@ topics:
       - "整理 2024 年底與該計畫相關的吹哨者聲稱（消息來源、具體內容、可佐證性評估）"
       - "調查 DoD 與情報機構對該計畫的公開回應或否認聲明"
       - "分析懷疑論者（如 Mick West）對該洩密文件的技術性質疑觀點與反駁論據"
-    status: todo
+    status: researching
     priority: p0
     type: investigative
     platforms: [youtube, substack, threads]
-    research_completed: false
+    research_completed: true
     draft_completed: false
     published_date: null
     tags: [immaculate-constellation, pentagon, cover-up, whistleblower]
     notes: "2024年底洩密事件，社群熱度極高，優先做。需調查 USAP 運作機制與法律漏洞"
     # 檔案關聯（預留結構，檔案建立後填入）
     files:
-      prompt: null      # 01-research/t001-prompt.md
-      report: null      # 01-research/t001-report.md
+      prompt: "01-research/t001-prompt.md"
+      report: "01-research/t001-report-immaculate-constellation.md"
       drafts: []        # 02-drafts/t001-youtube.md, 02-drafts/t001-substack.md
       assets: []        # 03-assets/t001-thumb-01.png
 
@@ -65,15 +65,18 @@ topics:
       - "調查反對 UAPDA 的議員名單與其選區軍工產業關聯性"
       - "比較 Schumer 修正案條文與 JFK Records Collection Act 的異同"
       - "收集航太企業協會（如 AIA）對 UAP 透明化法案的公開立場聲明"
-    status: todo
+    status: researching
     priority: p0
     type: political-analysis
     platforms: [youtube, twitter, substack]
-    research_completed: false
+    research_completed: true
     draft_completed: false
     published_date: null
     tags: [UAPDA, legislation, lobbying, NDAA, schumer]
     notes: "每月追蹤立法進度，舒默修正案條文比較，議員收受航太企業政治獻金分析"
+    files:
+      prompt: "01-research/t002-prompt.md"
+      report: "01-research/t002-report-uapda-lobbying.md"
 
   - id: t003
     title: "AARO 報告為什麼沒人信？解密現代版的藍皮書計畫公關操作"
@@ -83,15 +86,18 @@ topics:
       - "比較 Project Blue Book (1952-1969) 與 AARO 的組織架構、調查權限與結論模式"
       - "調查 Dr. Kirkpatrick 的背景、任命過程與離職後的公開發言"
       - "分析 Robertson Panel (1953) 對現代 UAP 敘事的影響與延續性"
-    status: todo
+    status: researching
     priority: p0
     type: investigative
     platforms: [youtube, substack]
-    research_completed: false
+    research_completed: true
     draft_completed: false
     published_date: null
     tags: [AARO, blue-book, cover-up, kirkpatrick, trust-crisis]
     notes: "逐條反駁 AARO 2024 歷史報告，與 Project Blue Book/Robertson Panel 歷史對比"
+    files:
+      prompt: "01-research/t003-prompt.md"
+      report: "01-research/t003-report-aaro-bluebook.md"
 
   - id: t004
     title: "如果政府不說，洩密者會說：災難性揭露倒數計時？"
