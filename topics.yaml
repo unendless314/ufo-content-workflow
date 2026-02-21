@@ -106,15 +106,18 @@ topics:
       - "收集主要 UAP 研究者與內部人士對『即將發生重大揭露』的預測時間線與依據"
       - "調查歷史上類似『重大真相揭露』（如 NSA 監控、CIA 酷刑）對社會信任的短期與長期影響"
       - "分析 NHI 存在確認對金融市場、宗教機構與國際關係的潛在衝擊模型"
-    status: todo
+    status: researching
     priority: p0
     type: analysis
     platforms: [youtube, substack, podcast]
-    research_completed: false
+    research_completed: true
     draft_completed: false
     published_date: null
     tags: [catastrophic-disclosure, controlled-disclosure, leak, prediction]
     notes: "受控揭露 vs 災難性揭露的社會學影響模型，全球金融/宗教/社會框架衝擊分析"
+    files:
+      prompt: "01-research/t004-prompt.md"
+      report: "01-research/t004-report-disclosure-models.md"
 
   - id: t005
     title: "核彈基地上方的幽靈：為什麼 UFO 總是出現在核設施附近？"
@@ -124,15 +127,18 @@ topics:
       - "分析 UAP 出現在核設施附近的可能動機假說（監控、警告、技術興趣等）"
       - "調查軍方反制系統（雷達、攔截機）在這些事件中回應失效的記錄與原因分析"
       - "收集 Robert Salas、Bob Jacobs 等退役軍官關於核基地 UAP 的證詞內容"
-    status: todo
+    status: researching
     priority: p0
     type: investigative
     platforms: [youtube, threads]
-    research_completed: false
+    research_completed: true
     draft_completed: false
     published_date: null
     tags: [nuclear-facilities, langley-afb, malmstrom, national-security]
     notes: "Langley AFB 2023-2025 入侵事件，歷史核基地遭遇案例，軍方反制系統失效原因"
+    files:
+      prompt: "01-research/t005-prompt.md"
+      report: "01-research/t005-report-nuclear-uap.md"
 
   # ==================== P1 優先級選題 ====================
   - id: t006
@@ -143,15 +149,18 @@ topics:
       - "分析『第六個可觀測特徵』（生物效應，如輻射傷害、腦部變化、意識影響）的證據記錄與案例"
       - "收集其他吹哨者（如 Emery Smith）關於回收生物材料的歷史證詞"
       - "評估現有『非人類遺骸』聲稱的物證品質與可佐證性"
-    status: todo
+    status: researching
     priority: p1
     type: investigative
     platforms: [youtube, substack]
-    research_completed: false
+    research_completed: true
     draft_completed: false
     published_date: null
     tags: [biologics, NHI, grusch, recovered-materials, peru-mummies]
     notes: "David Grusch 生物製劑證詞，納斯卡木乃伊爭議，第六個可觀測特徵"
+    files:
+      prompt: "01-research/t006-prompt.md"
+      report: "01-research/t006-report-biologics.md"
 
   - id: t007
     title: "海底有 UFO 基地？退役海軍少將爆料的 USO 真相"
@@ -160,15 +169,18 @@ topics:
       - "收集海軍聲納異常數據的解密或洩露記錄（如 2004 聖地牙哥海岸事件）"
       - "整理歷史上軍方與民間的『水下基地』聲稱（如 Puerto Rico、加州外海）"
       - "分析海洋 UAP 與空中 UAP 的行為模式差異與相似處"
-    status: todo
+    status: researching
     priority: p1
     type: investigative
     platforms: [youtube, threads]
-    research_completed: false
+    research_completed: true
     draft_completed: false
     published_date: null
     tags: [USO, underwater, gallaudet, ocean-anomalies, sonar]
     notes: "Tim Gallaudet 海洋倡議，聲納異常數據，跨域防報復機制缺口"
+    files:
+      prompt: "01-research/t007-prompt.md"
+      report: "01-research/t007-report-uso-underwater.md"
 
   - id: t008
     title: "用 AI 抓出假 UFO：教你如何分辨 CGI、無人機和真正的異常現象"
